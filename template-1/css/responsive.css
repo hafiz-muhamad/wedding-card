@@ -46,3 +46,13 @@
         font-size: small;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: black;
+    }
+
+    .grey {
+        color: grey;
+    }
+}
