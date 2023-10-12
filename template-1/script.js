@@ -124,3 +124,29 @@ document.querySelector("#close-location").addEventListener("click", function() {
     
     menu.style.bottom = "-300px"
 })
+
+const element1 = document.querySelector("#main");
+const element2 = document.querySelector("#invite");
+const element3 = document.querySelector("#countdown");
+const element4 = document.querySelector("#doa");
+const element5 = document.querySelector("#aturcara");
+const element6 = document.querySelector("#gambar");
+const element7 = document.querySelector("#penutup");
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+        } else {
+            entry.target.classList.remove('animate');
+        }
+    });
+})
+
+observer.observe(element1);
+observer.observe(element2);
+observer.observe(element3);
+observer.observe(element4);
+observer.observe(element5);
+observer.observe(element6);
+observer.observe(element7);
