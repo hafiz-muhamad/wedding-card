@@ -11,6 +11,10 @@
     .main-text-name {
         font-size: 2.5em;
     }
+
+    .nav {
+        width: 330px;
+    }
 }
 
 @media (max-width: 330px) {
@@ -44,6 +48,10 @@
 
     .aturcara-text {
         font-size: small;
+    }
+
+    .nav {
+        width: 280px;
     }
 }
 
