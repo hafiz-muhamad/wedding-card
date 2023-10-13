@@ -57,10 +57,10 @@
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: black;
+        color: goldenrod;
     }
 
     .grey {
-        color: grey;
+        color: whitesmoke;
     }
 }
