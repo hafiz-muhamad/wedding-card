@@ -112,7 +112,7 @@
 #countdown {
     background-image: url("../image/countdown.png");
     background-size: cover;
-    background-position: -15px;
+    background-position: -19px;
 }
 
 .countdown-text {
@@ -150,7 +150,7 @@
 #doa {
     background-image: url("../image/doa.png");
     background-size: cover;
-    background-position: -15px;
+    background-position: -5px;
     justify-content: center;
 }
 
