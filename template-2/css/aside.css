@@ -1,0 +1,106 @@
+.nav-container {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nav {
+    width: 370px;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 2px solid rgb(62, 54, 54);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.call, .wish, .location {
+    height: 80%;
+}
+
+.nav-icon {
+    height: 100%;
+    width: auto;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+#call-menu, #location-menu, #wish-menu {
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: -300px;
+}
+
+.menu {
+    height: 280px;
+    width: auto;
+    max-width: 390px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: glacial, sans-serif;
+}
+
+.menu-title p {
+    font-size: 1.3em;
+}
+
+.menu-content {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: glacial, sans-serif;
+}
+
+.close-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+.contact-person, .loc-option {
+    width: 98%;
+    height: 50px;
+    border: 1px solid rgb(201, 23, 23);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.loc-option {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,66 @@
+@media (max-width: 400px) {
+    #main, #invite, #countdown, #aturcara,
+    #doa, #gambar, #penutup, #ucapan {
+        width: 350px;
+    }
+
+    #main, #invite, #countdown, #aturcara {
+        height: 550px
+    }
+
+    .main-text-name {
+        font-size: 2.5em;
+    }
+
+    .nav {
+        width: 330px;
+    }
+}
+
+@media (max-width: 330px) {
+    #main, #invite, #countdown, #aturcara,
+    #doa, #gambar, #penutup, #ucapan {
+        width: 300px;
+    }
+
+    #main, #invite, #countdown, #aturcara {
+        height: 450px
+    }
+
+    .main-text-name {
+        font-size: 2em;
+    }
+
+    .invite-text {
+        margin-top: 70px;
+        font-size: small;
+    }
+
+    .partner {
+        font-size: small;
+    }
+
+    .countdown-text {
+        margin-top: 70px;
+        margin-bottom: 10px;
+        font-size: small;
+    }
+
+    .aturcara-text {
+        font-size: small;
+    }
+
+    .nav {
+        width: 280px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: black;
+    }
+
+    .grey {
+        color: grey;
+    }
+}

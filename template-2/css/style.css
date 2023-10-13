@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.grey {
+    color: whitesmoke;
+}
+
+.bold {
+    font-family: glacial-bold, sans-serif;
+}
+
+@font-face {
+    font-family: glacial;
+    src: url("../font/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+    font-family: glacial-bold;
+    src: url("../font/GlacialIndifference-Bold.otf");
+}
+
+@font-face {
+    font-family: halimun;
+    src: url("../font/Halimun.ttf");
+}
