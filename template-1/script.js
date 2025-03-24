@@ -8,9 +8,9 @@ function countdown() {
   let currentMinute = now.getMinutes();
   let currentSecond = now.getSeconds();
 
-  let targetYear = 2024;
-  let targetMonth = 9;
-  let targetDate = 2;
+  let targetYear = 2025;
+  let targetMonth = 12;
+  let targetDate = 31;
   let targetHour = 16;
   let targetMinute = 60;
   let targetSecond = 60;
